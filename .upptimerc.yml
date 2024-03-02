@@ -7,8 +7,6 @@ sites:
     url: https://caminoscan.com
   - name: CaminoScan - Columbus Testnet 
     url: https://columbus.caminoscan.com
-  - name: Camino Network Homepage
-    url: https://camino.network
   - name: Camino Mainnet RPC Endpoint - Ping
     check: "tcp-ping"
     url: api.camino.network
@@ -17,33 +15,48 @@ sites:
     check: "tcp-ping"
     url: columbus.camino.network
     port: 443
+    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Token-Logo.svg
   - name: Camino Mainnet RPC Endpoint - POST
     method: POST
     url: https://api.camino.network/ext/info
     headers:
       - "Content-Type: application/json"
     body: '{"jsonrpc":"2.0","id":1,"method":"info.getNetworkName"}'
+    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Token-Logo.svg
   - name: Columbus Testnet RPC Endpoint - POST
     method: POST
     url: https://columbus.camino.network/ext/info
     headers:
       - "Content-Type: application/json"
     body: '{"jsonrpc":"2.0","id":1,"method":"info.getNetworkName"}'
+    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Token-Logo.svg
+  - name: Camino Suite - Homepage
+    url: https://suite.camino.network/
+  - name: Camino Suite - Wallet
+    url: https://suite.camino.network/login
+  - name: Camino Suite - Explorer - Mainnet
+    url: https://suite.camino.network/explorer/camino/c-chain
+  - name: Camino Suite - Explorer - Columbus Testnet
+    url: https://suite.camino.network/explorer/columbus/c-chain
+  - name: Camino Network Homepage
+    url: https://camino.network
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /camino-status
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/caminoscan_filled_icon.svg
   name: Camino Ecosystem Status
   introTitle: "Status page for Camino Network ecosystem."
   introMessage: This status page uses **real-time** data from our [GitHub repository](https://github.com/CaminoScan/camino-status).
+  theme: ocean
+  faviconSvg: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/caminoscan_filled_icon.svg
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Discord
+      href: https://discord.gg/camino
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
