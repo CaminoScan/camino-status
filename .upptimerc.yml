@@ -11,25 +11,26 @@ sites:
     check: "tcp-ping"
     url: api.camino.network
     port: 443
+    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Logo-Square.svg
   - name: Columbus Testnet RPC Endpoint - Ping
     check: "tcp-ping"
     url: columbus.camino.network
     port: 443
-    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Token-Logo.svg
+    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Logo-Square.svg
   - name: Camino Mainnet RPC Endpoint - POST
     method: POST
     url: https://api.camino.network/ext/info
     headers:
       - "Content-Type: application/json"
     body: '{"jsonrpc":"2.0","id":1,"method":"info.getNetworkName"}'
-    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Token-Logo.svg
+    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Logo-Square.svg
   - name: Columbus Testnet RPC Endpoint - POST
     method: POST
     url: https://columbus.camino.network/ext/info
     headers:
       - "Content-Type: application/json"
     body: '{"jsonrpc":"2.0","id":1,"method":"info.getNetworkName"}'
-    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Token-Logo.svg
+    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Logo-Square.svg
   - name: Camino Suite - Homepage
     url: https://suite.camino.network/
   - name: Camino Suite - Wallet
@@ -50,7 +51,7 @@ status-website:
   name: Camino Ecosystem Status
   introTitle: "Status page for Camino Network ecosystem."
   introMessage: This status page uses **real-time** data from our [GitHub repository](https://github.com/CaminoScan/camino-status).
-  theme: ocean
+  theme: light
   faviconSvg: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/caminoscan_filled_icon.svg
   navbar:
     - title: Status
