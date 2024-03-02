@@ -5,8 +5,10 @@ repo: camino-status # The name of this repository
 sites:
   - name: CaminoScan - Camino Mainnet
     url: https://caminoscan.com
+    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/caminoscan_filled_icon.svg
   - name: CaminoScan - Columbus Testnet 
     url: https://columbus.caminoscan.com
+    icon: https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/caminoscan_filled_icon.svg
   - name: Camino Mainnet RPC Endpoint - Ping
     check: "tcp-ping"
     url: api.camino.network
