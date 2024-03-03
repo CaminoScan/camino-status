@@ -22,19 +22,19 @@
     "url": "https://columbus.caminoscan.com",
     "icon": "https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/caminoscan_filled_icon.svg",
     "slug": "camino-scan-columbus-testnet",
-    "status": "down",
-    "uptime": "98.22%",
-    "uptimeDay": "98.22%",
-    "uptimeWeek": "98.22%",
-    "uptimeMonth": "98.22%",
-    "uptimeYear": "98.22%",
-    "time": 731,
-    "timeDay": 731,
-    "timeWeek": 731,
-    "timeMonth": 731,
-    "timeYear": 731,
+    "status": "up",
+    "uptime": "97.37%",
+    "uptimeDay": "97.37%",
+    "uptimeWeek": "97.37%",
+    "uptimeMonth": "97.37%",
+    "uptimeYear": "97.37%",
+    "time": 747,
+    "timeDay": 747,
+    "timeWeek": 747,
+    "timeMonth": 747,
+    "timeYear": 747,
     "dailyMinutesDown": {
-      "2024-03-03": 14
+      "2024-03-03": 21
     }
   },
   {
