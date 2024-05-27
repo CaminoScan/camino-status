@@ -1,7 +1,7 @@
 url: https://api.camino.network/ext/info
-status: down
-code: 503
-responseTime: 395
-lastUpdated: 2024-05-27T19:44:13.971Z
+status: up
+code: 200
+responseTime: 602
+lastUpdated: 2024-05-27T19:55:25.615Z
 startTime: 2024-03-02T11:49:59.277Z
 generator: Upptime <https://github.com/upptime/upptime>
