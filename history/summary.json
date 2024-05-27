@@ -78,18 +78,20 @@
     "url": "https://api.camino.network/ext/info",
     "icon": "https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Logo-Square.svg",
     "slug": "camino-mainnet-rpc-endpoint-post",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 293,
-    "timeDay": 233,
-    "timeWeek": 311,
-    "timeMonth": 249,
-    "timeYear": 293,
-    "dailyMinutesDown": {}
+    "time": 294,
+    "timeDay": 314,
+    "timeWeek": 321,
+    "timeMonth": 253,
+    "timeYear": 294,
+    "dailyMinutesDown": {
+      "2024-05-27": 0
+    }
   },
   {
     "name": "Columbus Testnet RPC Endpoint - POST",
