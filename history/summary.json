@@ -4,10 +4,10 @@
     "url": "https://caminoscan.com",
     "icon": "https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/caminoscan_filled_icon.svg",
     "slug": "camino-scan-camino-mainnet",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 873,
@@ -15,16 +15,18 @@
     "timeWeek": 759,
     "timeMonth": 796,
     "timeYear": 873,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-01-20": 2
+    }
   },
   {
     "name": "CaminoScan - Columbus Testnet",
     "url": "https://columbus.caminoscan.com",
     "icon": "https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/caminoscan_filled_icon.svg",
     "slug": "camino-scan-columbus-testnet",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -34,6 +36,7 @@
     "timeMonth": 814,
     "timeYear": 812,
     "dailyMinutesDown": {
+      "2025-01-20": 0,
       "2024-03-03": 21
     }
   },
