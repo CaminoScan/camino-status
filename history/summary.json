@@ -4,10 +4,10 @@
     "url": "https://caminoscan.com",
     "icon": "https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/caminoscan_filled_icon.svg",
     "slug": "camino-scan-camino-mainnet",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 873,
@@ -16,6 +16,7 @@
     "timeMonth": 830,
     "timeYear": 880,
     "dailyMinutesDown": {
+      "2025-03-18": 1,
       "2025-02-12": 22
     }
   },
@@ -24,9 +25,9 @@
     "url": "https://columbus.caminoscan.com",
     "icon": "https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/caminoscan_filled_icon.svg",
     "slug": "camino-scan-columbus-testnet",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -35,7 +36,9 @@
     "timeWeek": 751,
     "timeMonth": 817,
     "timeYear": 823,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-03-18": 0
+    }
   },
   {
     "name": "Camino Mainnet RPC Endpoint - Ping",
