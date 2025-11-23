@@ -201,18 +201,19 @@
     "url": "https://camino.network",
     "icon": "https://raw.githubusercontent.com/CaminoScan/camino-status/master/assets/Camino-Logo-Square.svg",
     "slug": "camino-network-homepage",
-    "status": "up",
+    "status": "down",
     "uptime": "99.99%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 203,
-    "timeDay": 316,
-    "timeWeek": 211,
-    "timeMonth": 229,
+    "timeDay": 285,
+    "timeWeek": 217,
+    "timeMonth": 230,
     "timeYear": 199,
     "dailyMinutesDown": {
+      "2025-11-23": 0,
       "2025-05-07": 24
     }
   }
